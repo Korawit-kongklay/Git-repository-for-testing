@@ -27,5 +27,3 @@ class PrimeListTest(unittest.TestCase):
         result = is_prime_list(prime_list)
         self.assertFalse(result)  
 
-if __name__ == '__main__':
-    unittest.main()

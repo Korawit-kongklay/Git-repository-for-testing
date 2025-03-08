@@ -21,5 +21,3 @@ class TestFizzBuzz(unittest.TestCase):
     def test_zero_shold_return_FizzBuzz(self):
         self.assertEqual(fizzbuzz(0), "FizzBuzz")
 
-if __name__ == '__main__':
-    unittest.main()
