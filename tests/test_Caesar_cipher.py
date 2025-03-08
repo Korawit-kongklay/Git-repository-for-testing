@@ -36,3 +36,9 @@ class TestCaesarCipher(unittest.TestCase):
         k = 3
         with self.assertRaises(ValueError):
             caesar_cipher(s, k)
+    
+    def test_invalid_characters(self):
+        s = "hello@world"
+        k = 3
+        with self.assertRaises(ValueError):
+            caesar_cipher(s, k)

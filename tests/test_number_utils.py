@@ -27,3 +27,9 @@ class PrimeListTest(unittest.TestCase):
         result = is_prime_list(prime_list)
         self.assertFalse(result)  
 
+    def test_list_with_one(self):
+        prime_list = [1]
+        result = is_prime_list(prime_list)
+        self.assertFalse(result)  
+
+
